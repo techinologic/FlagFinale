@@ -64,8 +64,18 @@
         android:layout_height="wrap_content"
         android:text="@string/btnStart"
         android:id="@+id/btnStart"
-        android:layout_alignParentBottom="true"
+        android:textSize="25sp"
+        android:layout_below="@+id/imgUnitedstates"
         android:layout_centerHorizontal="true"
-        android:textSize="25sp" />
+        android:layout_marginTop="47dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCredits"
+        android:id="@+id/btnCredits"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

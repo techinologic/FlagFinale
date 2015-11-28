@@ -41,6 +41,8 @@ public class FlagAnimation extends AppCompatActivity {
     private CountDownTimer ethiopia;
     private CountDownTimer usa;
 
+    int timeInMilliSec = 10000;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,18 +67,18 @@ public class FlagAnimation extends AppCompatActivity {
 
         imgFrame = (ImageView) findViewById(R.id.imgFlag);
 
-        //starts usa animation
+        //starts usa flag animation
         imgFrame.setBackgroundResource(R.drawable.animation_usa);
         animate_usa = (AnimationDrawable) imgFrame.getBackground();
         animate_usa.start();
 
-        int timeInMilliSec = 10000;
+        //implements a timer that will change the flag being animated after timeInMilliSec;
         usa = new CountDownTimer(timeInMilliSec, 1000) {
 
             public void onTick(long millisUntilFinished) {
                 //do something while ticking
             }
-
+            //run below when timeInmilliSec expires
             public void onFinish() {
                 animate_usa.stop();
                 imgFrame.setBackgroundResource(R.drawable.animation_philippines);
@@ -91,6 +93,7 @@ public class FlagAnimation extends AppCompatActivity {
 
         }.start();
 
+        //another timer that will time the philippines flag animation
         philippines = new CountDownTimer(timeInMilliSec, 1000) {
 
             public void onTick(long millisUntilFinished) {
@@ -160,6 +163,7 @@ public class FlagAnimation extends AppCompatActivity {
             }
         };
 
+        //code for the stop flags button, stops any flag animating and starts a 10sec fade animation
         btnStop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -177,11 +181,13 @@ public class FlagAnimation extends AppCompatActivity {
                 ethiopia.cancel();
                 imgFrame.startAnimation(AnimationUtils.loadAnimation(FlagAnimation.this,
                         R.anim.fading));
+
+                //a timer to finish the activity flaganimatiin and return to main screen.
                 TimerTask task = new TimerTask() {
                     @Override
                     public void run() {
                         finish();
-                        startActivity(new Intent(FlagAnimation.this, MainActivity.class));
+                        startActivity(new Intent(FlagAnimation.this, Credits.class));
                     }
                 };
                 Timer opening = new Timer();

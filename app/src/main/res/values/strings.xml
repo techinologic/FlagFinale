@@ -8,6 +8,23 @@
     <string name="height">"170"</string>
     <string name="width">"100"</string>
 
+    <string name="txtCredits">"Credits:"</string>
+    <string name="txtCreditsBody1">"This app was made possible with the combined efforts of group 4:\nPaolo T. Inocencion, Manoj Subedi, Zaid Alanazi and Ahmed Almatar."</string>
+
+    <string name="txtCreditsBody2">"Photos of flags were taken from www.crossed-flag-pins.com.
+        \nFlags animated in this app were gifs, then converted into .mp4 video for pixel size consistency using www.online-convert.com, \nthen separated frame by frame with the use of www.ezgif.com."</string>
+
+    <string name="txtCreditsBody3">"National anthem audio files were downloaded free from www.junglevibe1.net, \nand were splitted and edtited to reduced the size and duration using www.mp3cut.net."</string>
+
+    <string name="txtCreditBody4">Bulk file renaming and numbering was made easy using the program Bulk Rename Utilily and
+    ItelliJ Community Edition IDE to generate xml sequence lines of codes.</string>
+
+    <string name="txtCreditBody5">Sources of ideas and codes include www.developers.android.com, www.stackoverflow.com, and www.youtube.com</string>
+
+
+    <string name="btnBackToMain">Back to Flags</string>
+    <string name="btnCredits">Credits</string>
+
 
 
 </resources>
