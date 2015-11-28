@@ -160,6 +160,15 @@ public class FlagAnimation extends AppCompatActivity {
                 ethiopiaAnthem.stop();
                 imgFrame.startAnimation(AnimationUtils.loadAnimation(FlagAnimation.this,
                         R.anim.fading));
+                TimerTask task = new TimerTask() {
+                    @Override
+                    public void run() {
+                        finish();
+                        startActivity(new Intent(FlagAnimation.this, Credits.class));
+                    }
+                };
+                Timer opening = new Timer();
+                opening.schedule(task, 9500);
             }
         };
 
@@ -182,7 +191,7 @@ public class FlagAnimation extends AppCompatActivity {
                 imgFrame.startAnimation(AnimationUtils.loadAnimation(FlagAnimation.this,
                         R.anim.fading));
 
-                //a timer to finish the activity flaganimatiin and return to main screen.
+                //a timer to finish the activity flaganimation and return to main screen.
                 TimerTask task = new TimerTask() {
                     @Override
                     public void run() {
@@ -191,7 +200,7 @@ public class FlagAnimation extends AppCompatActivity {
                     }
                 };
                 Timer opening = new Timer();
-                opening.schedule(task, 11000);
+                opening.schedule(task, 9500);
             }
         });
 
