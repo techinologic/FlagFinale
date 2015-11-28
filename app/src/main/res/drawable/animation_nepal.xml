@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/nepal_4" android:duration="100"/>
+    <item android:drawable="@drawable/nepal_8" android:duration="100"/>
+    <item android:drawable="@drawable/nepal_12" android:duration="100"/>
+    <item android:drawable="@drawable/nepal_17" android:duration="100"/>
+    <item android:drawable="@drawable/nepal_23" android:duration="100"/>
+    <item android:drawable="@drawable/nepal_28" android:duration="100"/>
+    <item android:drawable="@drawable/nepal_32" android:duration="100"/>
+    <item android:drawable="@drawable/nepal_37" android:duration="100"/>
+    <item android:drawable="@drawable/nepal_41" android:duration="100"/>
+    <item android:drawable="@drawable/nepal_45" android:duration="100"/>
+    <item android:drawable="@drawable/nepal_51" android:duration="100"/>
+    <item android:drawable="@drawable/nepal_54" android:duration="100"/>
+    <item android:drawable="@drawable/nepal_59" android:duration="100"/>
+    <item android:drawable="@drawable/nepal_63" android:duration="100"/>
+    <item android:drawable="@drawable/nepal_67" android:duration="100"/>
+    <item android:drawable="@drawable/nepal_70" android:duration="100"/>
+
+</animation-list>

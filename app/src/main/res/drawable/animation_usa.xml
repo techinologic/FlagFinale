@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item android:drawable="@drawable/usa_4" android:duration="100"/>
+    <item android:drawable="@drawable/usa_8" android:duration="100"/>
+    <item android:drawable="@drawable/usa_12" android:duration="100"/>
+    <item android:drawable="@drawable/usa_17" android:duration="100"/>
+    <item android:drawable="@drawable/usa_23" android:duration="100"/>
+    <item android:drawable="@drawable/usa_28" android:duration="100"/>
+    <item android:drawable="@drawable/usa_32" android:duration="100"/>
+    <item android:drawable="@drawable/usa_37" android:duration="100"/>
+    <item android:drawable="@drawable/usa_41" android:duration="100"/>
+    <item android:drawable="@drawable/usa_45" android:duration="100"/>
+    <item android:drawable="@drawable/usa_51" android:duration="100"/>
+    <item android:drawable="@drawable/usa_54" android:duration="100"/>
+    <item android:drawable="@drawable/usa_59" android:duration="100"/>
+    <item android:drawable="@drawable/usa_63" android:duration="100"/>
+    <item android:drawable="@drawable/usa_67" android:duration="100"/>
+    <item android:drawable="@drawable/usa_70" android:duration="100"/>
+
+
+</animation-list>

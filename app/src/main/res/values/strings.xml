@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FlagFinale</string>
+    <string name="imgDescription">Flag Animation View</string>
+    <string name="btnStop">Stop Flags</string>
+    <string name="btnStart">Start Flags</string>
+    <string name="txtCountryUsa">United States of America</string>
+    <string name="txtAnthemUsa">"The Star Spangled Banner"</string>
+    <string name="height">"170"</string>
+    <string name="width">"100"</string>
+
+
+
+</resources>

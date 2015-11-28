@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ethiopia_4" android:duration="100"/>
+    <item android:drawable="@drawable/ethiopia_8" android:duration="100"/>
+    <item android:drawable="@drawable/ethiopia_12" android:duration="100"/>
+    <item android:drawable="@drawable/ethiopia_17" android:duration="100"/>
+    <item android:drawable="@drawable/ethiopia_23" android:duration="100"/>
+    <item android:drawable="@drawable/ethiopia_28" android:duration="100"/>
+    <item android:drawable="@drawable/ethiopia_32" android:duration="100"/>
+    <item android:drawable="@drawable/ethiopia_37" android:duration="100"/>
+    <item android:drawable="@drawable/ethiopia_41" android:duration="100"/>
+    <item android:drawable="@drawable/ethiopia_45" android:duration="100"/>
+    <item android:drawable="@drawable/ethiopia_51" android:duration="100"/>
+    <item android:drawable="@drawable/ethiopia_54" android:duration="100"/>
+    <item android:drawable="@drawable/ethiopia_59" android:duration="100"/>
+    <item android:drawable="@drawable/ethiopia_63" android:duration="100"/>
+    <item android:drawable="@drawable/ethiopia_67" android:duration="100"/>
+    <item android:drawable="@drawable/ethiopia_70" android:duration="100"/>
+
+</animation-list>

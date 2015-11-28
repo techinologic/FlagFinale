@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item android:drawable="@drawable/philippines_4" android:duration="100"/>
+    <item android:drawable="@drawable/philippines_8" android:duration="100"/>
+    <item android:drawable="@drawable/philippines_12" android:duration="100"/>
+    <item android:drawable="@drawable/philippines_17" android:duration="100"/>
+    <item android:drawable="@drawable/philippines_23" android:duration="100"/>
+    <item android:drawable="@drawable/philippines_28" android:duration="100"/>
+    <item android:drawable="@drawable/philippines_32" android:duration="100"/>
+    <item android:drawable="@drawable/philippines_37" android:duration="100"/>
+    <item android:drawable="@drawable/philippines_41" android:duration="100"/>
+    <item android:drawable="@drawable/philippines_45" android:duration="100"/>
+    <item android:drawable="@drawable/philippines_51" android:duration="100"/>
+    <item android:drawable="@drawable/philippines_54" android:duration="100"/>
+    <item android:drawable="@drawable/philippines_59" android:duration="100"/>
+    <item android:drawable="@drawable/philippines_63" android:duration="100"/>
+    <item android:drawable="@drawable/philippines_67" android:duration="100"/>
+    <item android:drawable="@drawable/philippines_70" android:duration="100"/>
+
+
+</animation-list>

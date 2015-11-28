@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/saudi_4" android:duration="100"/>
+    <item android:drawable="@drawable/saudi_8" android:duration="100"/>
+    <item android:drawable="@drawable/saudi_12" android:duration="100"/>
+    <item android:drawable="@drawable/saudi_17" android:duration="100"/>
+    <item android:drawable="@drawable/saudi_23" android:duration="100"/>
+    <item android:drawable="@drawable/saudi_28" android:duration="100"/>
+    <item android:drawable="@drawable/saudi_32" android:duration="100"/>
+    <item android:drawable="@drawable/saudi_37" android:duration="100"/>
+    <item android:drawable="@drawable/saudi_41" android:duration="100"/>
+    <item android:drawable="@drawable/saudi_45" android:duration="100"/>
+    <item android:drawable="@drawable/saudi_51" android:duration="100"/>
+    <item android:drawable="@drawable/saudi_54" android:duration="100"/>
+    <item android:drawable="@drawable/saudi_59" android:duration="100"/>
+    <item android:drawable="@drawable/saudi_63" android:duration="100"/>
+    <item android:drawable="@drawable/saudi_67" android:duration="100"/>
+    <item android:drawable="@drawable/saudi_70" android:duration="100"/>
+</animation-list>
